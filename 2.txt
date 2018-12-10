@@ -1,6 +1,6 @@
-// Завдання № 1
+//  1
 
-var value = promt ('Введыть число', 0);
+var value = promt ('Г‚ГўГҐГ¤Г»ГІГј Г·ГЁГ±Г«Г®', 0);
 if (value >0) {
   alert( 1 );
 } else if (value < 0) {
@@ -8,7 +8,7 @@ if (value >0) {
 } else if(value = 0) {
   alert( 0 );
 }
-// Завдання № 2 
+//  2 
 
 var login;
 var password;
@@ -28,7 +28,7 @@ if (password = Cansel ) {
 };
 
 
-// Завдання № 3
+//  3
 
 var login;
 var password;
@@ -48,3 +48,6 @@ switch(password ) {
     case TheMaster:
         alert('Welcome!');
 };
+
+
+// addet test massege
