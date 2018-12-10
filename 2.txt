@@ -1,0 +1,50 @@
+// Завдання № 1
+
+var value = promt ('Введыть число', 0);
+if (value >0) {
+  alert( 1 );
+} else if (value < 0) {
+  alert( -1 );
+} else if(value = 0) {
+  alert( 0 );
+}
+// Завдання № 2 
+
+var login;
+var password;
+if (login = Cansel ) {
+   alert('Canceled');
+} else if(login = Other) {
+    alert("I don't know you");
+} else if(login = Admin) {
+    alert('Password?');
+};
+if (password = Cansel ) {
+    alert('Canceled');
+} else if(password = Other) {
+    alert("Wrong password");
+} else if(password = TheMaster) {
+    alert('Welcome!');
+};
+
+
+// Завдання № 3
+
+var login;
+var password;
+switch(login ) {
+    case Cansel:
+    alert('Canceled'); break;
+    case Other:
+        alert("I don't know you"); break;
+    case Admin:
+        alert('Password?');  
+};
+switch(password ) {
+    case Cansel:
+        alert('Canceled'); break;
+    case Other:
+        alert("Wrong password"); break;
+    case TheMaster:
+        alert('Welcome!');
+};
